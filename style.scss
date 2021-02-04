@@ -150,3 +150,36 @@ ul ul li {
   margin-left: 45px;
   width: 400px;
 }
+
+/*Footer*/
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px auto;
+    background: grey;
+
+li {
+    font-size: 0;
+    display: inline-block;
+}
+
+i {
+  padding-top: 15px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 30px;
+  color: white;
+
+}
+.fa-copyright {
+  font-size: 20px;
+  padding-top: 10px;
+  padding-right: 0;
+  font-style: none;
+}
+}
+
+.icons i:hover {
+    transform: scale(1.2);
+}
