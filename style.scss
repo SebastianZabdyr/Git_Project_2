@@ -1,0 +1,106 @@
+/*Variables*/
+$font-text: 'Roboto', sans-serif;
+$font-header: 'Montserrat', sans-serif;
+$color-first: #f1f2f6;
+$color-second: #eccc68;
+$color-third: #ffa502;
+$color-fourth: #DAF7A6;
+$color-light: #ffffff;
+$color-dark: #2c2c54;
+$transition: 0.5s;
+
+/*Navigation*/
+.navigation {
+.navbar-brand {
+  left: 2px;
+  text-align: left;
+  margin-left: 0;
+  padding-right: 100px;
+  flex-wrap: wrap;
+      position: relative;
+      justify-content: flex-start
+}
+
+li {
+    display: inline-block;
+    padding-right: 36px;
+    position: relative;
+}
+
+
+a {
+    text-decoration: none;
+    color: $color-light;
+        display: inline-block;
+        padding-right: 36px;
+        position: relative;
+}
+
+a:hover {
+    color: grey;
+}
+
+ul li:hover ul {
+    display: block;
+}
+
+li ul {
+    display: inline-block;
+    text-align: end;
+    position: absolute;
+    background-color: black;
+}
+
+ul li ul li a {
+    color: orange;
+}
+
+
+ul li ul li:hover a {
+    color: $color-second;
+}
+
+li:hover li {
+  display: block;
+  text-align: center;
+  }
+
+ul ul li {
+  top: 6px;
+  padding: 0 20px;
+
+}
+
+}
+
+.navigation {
+    ul {
+        li {
+            ul {
+                li {
+            display: none;
+                }
+            }
+        }
+    }
+}
+
+/*Header*/
+.head-img {
+    background-image: url(https://images.pexels.com/photos/919073/pexels-photo-919073.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    font-family: $font-header;
+    color: $color-dark;
+    height: 1000px;
+    text-align: center;
+    height: 100vh;
+    top: 0;
+    position: relative;
+    background-size: cover;
+}
+
+.splash-inner {
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: center;
+    padding-top: 300px;
+}
