@@ -259,3 +259,47 @@ i {
 .icons i:hover {
     transform: scale(1.2);
 }
+
+/*Media*/
+@media (max-width: 767px) {
+  .boxes {
+    flex-direction: column;
+  }
+
+  .our-cars {
+    text-align: center;
+  }
+
+  .card {
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 100%;
+  }
+
+  .footer {
+    i {
+      padding-top: 3px;
+      padding-left: 5px;
+      padding-right: 10px;
+      font-size: 25px;
+      color: white;
+    }
+
+    .fa-copyright {
+      font-size: 20px;
+      padding-top: 2px;
+      padding-right: 0;
+      font-style: none;
+    }
+  }
+
+  .page-subtitle {
+    font-size: 20px;
+  }
+
+  .page-title {
+    margin-top: 0;
+    padding-top: 10px;
+    font-size: 50px;
+}
+}
