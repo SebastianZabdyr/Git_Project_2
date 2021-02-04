@@ -104,3 +104,28 @@ ul ul li {
     text-align: center;
     padding-top: 300px;
 }
+
+/*Services*/
+.services {
+  padding-bottom: 80px;
+  padding-top: 50px;
+}
+
+.services-boxes .fas {
+        margin-top: 50px;
+        text-shadow: 0 0 3px #000;
+        font-size: 100px;
+        color: #EAB543;
+}
+
+.boxes  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    flex: 0 0 33.333%;
+    position: relative;
+    text-align: center;
+}
