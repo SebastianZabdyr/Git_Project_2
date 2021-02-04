@@ -9,6 +9,82 @@ $color-light: #ffffff;
 $color-dark: #2c2c54;
 $transition: 0.5s;
 
+
+/*Global*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.section-title {
+  padding: 50px 0 30px 0;
+  font-weight: 600;
+  font-variant: small-caps;
+  text-align: center;
+  font-size: 50px;
+}
+
+.section-subtitle {
+    font-size: 30px;
+    text-align: center;
+    padding: 30px;
+}
+
+.page-subtitle {
+  color: white;
+  font-size: 30px;
+}
+
+.page-title {
+  margin-top: 0;
+  padding-top: 50px;
+  font-size: 100px;
+  font-weight: bold;
+  padding: 3px;
+  color: $color-light;
+  border-bottom: 2px solid $color-dark;
+  border-radius: 10%;
+  letter-spacing: 5px;
+  font-variant: small-caps;
+}
+
+p {
+  padding: 0 30px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.btn:hover {
+    background-position: 0 100%;
+    color: white;
+}
+
+.btn-one {
+  margin-top: 100px;
+  text-align: center;
+  border-radius: 15%;
+  border-top: none;
+  font-size: 50px;
+  color: white;
+  border-color: grey;
+  background-image: linear-gradient(200deg, grey 50%, transparent 90%);
+  display: inline-block;
+  min-width: 160px;
+  margin: 24px auto 0 auto;
+  border-radius: 5px;
+  font-family: $font-text;
+  font-size: 17px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 2px;
+  border-style: solid;
+  font-variant: small-caps;
+  font-weight: bold;
+  background-position: 20% 0;
+  background-size: 300%;
+  transition: $transition;
+}
+
 /*Navigation*/
 .navigation {
 .navbar-brand {
